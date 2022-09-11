@@ -18,6 +18,8 @@ import javax.persistence.Id;
 //These all are Lambok annotations
 @Data
 @Entity
+@AllArgsConstructor
+@RequiredArgsConstructor
 public class Employee {
 
     @Id
