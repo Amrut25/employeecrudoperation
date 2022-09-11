@@ -18,7 +18,7 @@ public class EmployeeController {
     @GetMapping("/getmsg/{name}")
      public String getMessage(@PathVariable String name)
     {
-
+        
         Calendar c = Calendar.getInstance();
         int hours = c.get(Calendar.HOUR_OF_DAY);
 

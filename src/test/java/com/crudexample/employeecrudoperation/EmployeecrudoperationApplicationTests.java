@@ -1,7 +1,9 @@
 package com.crudexample.employeecrudoperation;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +15,7 @@ import java.net.URISyntaxException;
 
 //This is Test runner class
 @SpringBootTest
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class EmployeecrudoperationApplicationTests {
 
 	@Test
@@ -20,6 +23,7 @@ class EmployeecrudoperationApplicationTests {
 	}
 	//This is my test runner class
 	//Here you can add your Test cases with the help of @Test annotation
+	//This is for Junit testing
 
 	@Test
 	@Order(2)
