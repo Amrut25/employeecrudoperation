@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 		//(exclude = {DataSourceAutoConfiguration.class})
-        //It is added when there is no datatabase.
+        //It is added when we have no database
 @EnableScheduling
 public class EmployeecrudoperationApplication {
 
