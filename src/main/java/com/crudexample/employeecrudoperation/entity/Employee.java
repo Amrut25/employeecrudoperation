@@ -15,7 +15,7 @@ import javax.persistence.Id;
 //@EqualsAndHashCode
 //@ToString
 //All above Annotations are equal to single annotation @Data,by using @Data we get above all annotations
-//These all are Lambok annotations
+//These all are Lambok annotation
 @Data
 @Entity
 @AllArgsConstructor
